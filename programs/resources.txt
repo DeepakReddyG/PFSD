@@ -1,0 +1,8 @@
+https://www.djangoproject.com/start/ -Django
+
+https://www.w3schools.com/django/ - w3schools
+
+https://www.geeksforgeeks.org/django-tutorial/ -Geeksforgeeks
+
+
+ 
