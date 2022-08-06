@@ -1,0 +1,9 @@
+class Patient:
+	def health(self):
+		print('I am sick')
+class Doctor(Patient):
+	def role(self):
+		print('I can treat patients')
+class Medicine(Patient):
+	def role(slef)
+	

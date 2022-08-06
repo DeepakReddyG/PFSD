@@ -1,0 +1,11 @@
+1. import csv to use any csv file operations
+	--> import csv 
+2. csv.reader() is a predefined function which is avalible in csv package 
+3. next() function [predefined function] which is used to read the data after the header till 
+the end of the file (EOF) 
+ 		rows = []
+		for row in csvreader"
+			rows.append(row) 
+		rows 
+
+	this piece of code retrieves the row by row data 
