@@ -1,0 +1,205 @@
+
+body {
+    background-color: rgba(250, 235, 215, 0.5); 
+}
+.pretop img {
+    width: 100%;
+}
+.container {
+    border: 2px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 700px;
+    min-width: 300px;
+    margin: auto; 
+    background-color:aliceblue;
+}
+.top {
+    text-align: center;
+    border: 1px solid;
+    margin: 1%;
+    border-top: 20px solid orange;
+    border-bottom: 5px solid orange;
+    border-bottom: dotted;
+    color: white;
+    background-color: rgb(27, 27, 50, 1);
+}
+.logo img {
+    width: 100%;
+   
+}
+.top h1{
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+}
+.top p{
+    margin-top: -3%;
+    font-size: 15px;
+    opacity: 0.5;
+}
+.top hr {
+    width: 90%;
+    height: 1px;
+    
+}
+.module-one {
+    border: 1px solid;
+    border-top: 10px solid rgba(255, 165, 0, 0.9);
+    margin: 1%;
+    padding: 10px;
+    color: white;
+    background-color: #1b1b32;
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+.module-one .labels {
+    display: block;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.module-one .textFill input {
+    width: 100%;
+    height: 25px;
+    font-size: 15px;
+    max-width: 600px;
+    border: none;
+    padding: 5px;
+    background-color: rgba(200, 196, 186, 0.2); 
+    border-bottom: 2px solid orange;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.module-one .choose{
+    display: block;
+    margin-left: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.module-two {
+        border: 1px solid;
+        border-top: 10px solid rgba(255, 165, 0, 0.9);
+        margin: 1%; 
+        padding: 10px;
+        color: white;
+        background-color: #1b1b32;
+        padding-bottom: 30px;
+        padding-right: 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.module-two .labels {
+    display: block;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    
+
+}
+.module-two select {
+    width: 60%;
+    border: 2px solid orange;
+    height: 30px;
+    border-radius: 10px;
+}
+.module-two .choose {
+    display: block;
+    margin-left: 15px;
+}
+
+.module-two .choose select {
+    display: block;
+    margin-left: -10px;
+}
+
+.module-two .textFill input{
+    width: 100%;
+    height: 25px;
+    font-size: 15px;
+    max-width: 600px;
+    border: none;
+    padding: 5px;
+    background-color: rgba(148, 154, 129, 0.3);
+    border-bottom: 2px solid orange;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+.module-two .year select {
+    width: 60%;
+    
+}
+/*.module-two .termsandconditions a{
+    color: orange;
+}
+.module-three {
+    margin-bottom: 7px;
+}
+.termsandconditions {
+    margin-left: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+.termsandconditions p {
+    display: inline;
+}
+*/
+.module-three {
+    margin-bottom: 7px;
+}
+.buto {
+    background-color: transparent;
+    width: 99%;
+    height: 60px;
+    border: none;
+}
+.module-three .button {
+    display: inline-flex; 
+    align-items: center;
+    margin-left: 1%;
+    padding: px;
+    background-color: orange;
+    width: 98%;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    user-select: none;
+}
+.module-three .button .icon {
+    font-size: 30px;
+    color: white;
+    margin-right: 0;
+    display: none;
+    position: absolute;
+    margin-left: 17%;
+    
+}
+.button.checked .icon{
+    display: flex;
+}
+.icon.spinner.spin{
+    animation: spin 1.3s ease-in-out infinite;
+}
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.module-three .icon.check {
+    display: inline-flex;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(225, 218, 206, 0.477);
+    
+
+}
+.button .text-button {
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+}

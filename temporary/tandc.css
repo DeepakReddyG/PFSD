@@ -1,0 +1,43 @@
+body {
+    background-color: antiquewhite;
+}
+.container {
+    border: 2px solid black;
+    width: 50%;
+    max-width: 90%;
+    min-width: 80%;
+    margin: auto;
+    background-color: #1b1b32;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border-top: 10px solid orange;
+}
+.content {
+    padding: 10px;
+}
+
+.content h1 {
+    text-align: center;
+    color: white;
+    margin: 2%;
+}
+
+.back a {
+    text-decoration: none;
+}
+.back button {
+    width: 100%;
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+}
+.back p {
+    font-size: 20px;
+}
+.read {
+    text-align: center;
+    margin: 20px;
+}
+.read p {
+    display: inline;
+}

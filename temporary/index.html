@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="icon" type="image/x-icon" href="SAC.png">
+    <link rel="stylesheet" href="forms.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+</head>
+<body>
+    <form action="https://sheetdb.io/api/v1/7e2w6eciij3ln"  method="POST" id="sheetdb-form">
+    <div class="container">
+        <div class="pretop">
+        </div>
+        <div class="top">
+            <h1>Registration Form for SAC</h1>
+            <p>Please fill the required details to get registered</p>
+        </div>
+        <div class="logo">
+            <img src="Student Activity Center_final.png" alt="">
+        </div>
+        <div class="module-one">
+           <div class="labels"><label for="">Name of the Student</label></div>
+           <div class="inp textFill"><input type="text" placeholder="Enter Your Full Name" required name="data[Name]" id="Name"></div>
+           <div class="labels"><label for="">ID Number of the Student</label></div>
+           <div class="inp textFill"><input type="text" name="data[ID]" id="ID" pattern="[0-9]{10,}" placeholder="Registration Number (leave blank you don't have it)"></div>
+           <div class="labels"><label for="">Registered Email ID</label></div>
+           <div class="inp textFill"><input type="email" name="data[Email]" id="Email" placeholder="2100099999@kluniversity.in" required></div>
+           <div class="labels"><label for="">Mobile Number</label></div>
+           <div class="inp textFill"><input type="tel" name="data[Mobile]" id="" required placeholder="Preferably Whatsapp number"></div>
+           <div class="labels"><label for="">Gender</label></div>
+           <div class="inp choose"><input type="radio" name="data[Gender]" id=""  value="male" required> Male</div>
+           <div class="inp choose"><input type="radio" name="data[Gender]" id="" value="femlae" required> Female</div>
+            <div class="labels"><label for="">Residing in Campus Hostel/Day Scholars?</label></div>
+            <div class="inp choose"><input type="radio" name="data[H/D]" id="" required value="Hostel"> Hostel</div> 
+            <div class="inp choose" val><input type="radio" name="data[H/D]" id="" value="Day Scholar" required> Day Scholar</div>
+            </div>
+
+
+            <div class="module-two">
+                <div class="labels"><label for="">Branch</label></div>
+                <div class="inp choose">
+                        <select name="data[Branch]" id="" required>
+                            <option value="B.Tech  -Computer Science  and Engineering">B.Tech  -Computer Science  and Engineering</option>
+                            <option value="B.Tech   -Electronics and Communication Engineering">B.Tech   -Electronics and Communication Engineering</option>
+                            <option value="B.Tech -Electrical and Electronics Engineering">B.Tech -Electrical and Electronics Engineering</option>
+                            <option value="B.Tech - Artificial Intellegence & Data Science">B.Tech - Artificial Intellegence & Data Science</option>
+                            <option value="B.Tech - Civil Engineering">B.Tech - Civil Engineering</option>
+                            <option value="B.Tech -  Bio Technology">B.Tech -  Bio Technology</option>
+                            <option value="B.Tech - Mechanical Engineering">B.Tech - Mechanical Engineering</option>
+                            <option value="B.Tech - Computer Science & Information Technology">B.Tech - Computer Science & Information Technology</option>
+                            <option value="B. Arch.">B. Arch.</option>
+                            <option value="BCA">BCA</option>
+                            <option value="B. Pharmacy">B. Pharmacy</option>
+                            <option value="B.Sc.(Visual Communications)">B.Sc.(Visual Communications)</option>
+                            <option value="B.Com (Honors)">B.Com (Honors)</option>
+                            <option value="BBA">BBA</option>
+                            <option value="BBA-LLB">BBA-LLB</option>
+                            <option value="BA">BA</option>
+                            <option value="B.Sc(Hotel Management)">B.Sc(Hotel Management)</option>
+                            <option value="LL.B">LL.B</option>
+                            <option value="B.Com (Computer Applications)">B.Com (Computer Applications)</option>
+                            <option value="B.Sc(Agriculture)">B.Sc(Agriculture)</option>
+                            <option value="B.Tech - Electronics and Computer Science">B.Tech - Electronics and Computer Science</option>
+                            <option value="B.Tech - Internet of Things">B.Tech - Internet of Things</option>
+                            <option value="M.Tech -  Bio Technology">M.Tech -  Bio Technology</option>
+                            <option value="M.Tech -Structural Engineering">M.Tech -Structural Engineering</option>
+                            <option value="M.Tech-Construction Technology & Management">M.Tech-Construction Technology & Management</option>
+                            <option value="M.Tech -Geotechnical Engineering">M.Tech -Geotechnical Engineering</option>
+                            <option value="M.Tech -  Computer Science and Engineering">M.Tech -  Computer Science and Engineering</option>
+                            <option value="M.Tech-Digital Foremsic & Cyber Security">M.Tech-Digital Foremsic & Cyber Security</option>
+                            <option value="M.Tech -  VLSI">M.Tech -  VLSI</option>
+                            <option value="M.Tech -  Radar & Communication">M.Tech -  Radar & Communication</option>
+                            <option value="M.Tech - Power Systems">M.Tech - Power Systems</option>
+                            <option value="M.Tech -  Power Electronics and Drives">M.Tech -  Power Electronics and Drives</option>
+                            <option value="M.Tech - Thermal Engineering">M.Tech - Thermal Engineering</option>
+                            <option value="M.Tech -  Machine Design">M.Tech -  Machine Design</option>
+                            <option value="MBA">MBA</option>
+                            <option value="M.Sc.(Chemistry)">M.Sc.(Chemistry)</option>
+                            <option value="M.Sc.(Applied Mathematics)">M.Sc.(Applied Mathematics)</option>
+                            <option value="M.Sc.(Physics)">M.Sc.(Physics)</option>
+                            <option value="M.A(English)">M.A(English)</option>
+                            <option value="M.Sc(Finance and Control)">M.Sc(Finance and Control)</option>
+                            <option value="PHARM.D.">PHARM.D.</option>
+                            <option value="Master of Pharmacy Management(M.Pharmacy)">Master of Pharmacy Management(M.Pharmacy)</option>
+                            <option value="LL.M">LL.M</option>
+                            <option value="M.Tech - Artificial Intellegence and Data Science">M.Tech - Artificial Intellegence and Data Science</option>
+                            <option value="M.Tech - Internet of Things">M.Tech - Internet of Things</option>
+                            <option value="M.Tech - Robotics and Automation">M.Tech - Robotics and Automation</option>
+                            <option value="MCA">MCA</option>
+                            <option value="Ph.D. -Bio technology">Ph.D. -Bio technology</option>
+                            <option value="Ph.D. -Civil Engineering">Ph.D. -Civil Engineering</option>
+                            <option value="Ph.D. -Computer Science  and Engineering">Ph.D. -Computer Science  and Engineering</option>
+                            <option value="Ph.D. -Electronics and Communication Engineering">Ph.D. -Electronics and Communication Engineering</option>
+                            <option value="Ph.D. -Electronics and Computer Engineering">Ph.D. -Electronics and Computer Engineering</option>
+                            <option value="Ph.D. -Electrical and Electronics Engineering">Ph.D. -Electrical and Electronics Engineering</option>
+                            <option value="Ph.D. -Mechanical Engineering">Ph.D. -Mechanical Engineering</option>
+                            <option value="Ph.D. -Mathematics">Ph.D. -Mathematics</option>
+                            <option value="Ph.D. -Physics">Ph.D. -Physics</option>
+                            <option value="Ph.D. -Chemistry">Ph.D. -Chemistry</option>
+                            <option value="Ph.D. -English">Ph.D. -English</option>
+                            <option value="Ph.D. -Management">Ph.D. -Management</option><option value="Ph.D. -Law">Ph.D. -Law</option>
+                            <option value="Ph.D. -Pharmacy">Ph.D. -Pharmacy</option>
+                        </select>
+                </div>
+                <div class="labels"><label for="">Year of Pursuing</label></div>
+                <div class="inp year">
+                    <select name="data[Year]" id="" required>
+
+                        <option type="one" value="1">1</option>
+                        <option type="two" value="2">2</option>
+                        <option type="three" value="3">3</option>
+                        <option type="Four" value="4">4</option>
+                        <option type="Five" value="5">5</option>
+                    </select>
+                </div>
+                <div class="labels "><label for="">Which Techical Club would you like to join?</label></div>
+                <div class="inp choose" st><input type="radio" name="data[Technical Club]" id="" value="Automation Club" required> Automation CLub</div>
+                <div class="inp choose"><input type="radio" name="data[Technical Club]" id="" value="Automobile Club" required> Automobile Club</div>
+                <div class="inp choose"><input type="radio" name="data[Technical Club]" id="" value="Eco Club" required> Eco Club</div>
+                <div class="inp choose"><input type="radio" name="data[Technical Club]" id="" value="Ethical Hacking Club" required> Ethical Hacking Club</div> 
+                <div class="inp choose"><input type="radio" name="data[Technical Club]" id="" value="Robotics Club" required> Robotics Club</div>
+                <div class="inp choose"><input type="radio" name="data[Technical Club]" id="" value="Gaming Club" required> Gaming Club</div>
+                <div class="inp choose"><input type="radio" name="data[Technical Club]" id="" value="Web Apps" required> Web Apps</div>
+                <div class="inp choose"><input type="radio" name="data[Technical Club]" id="" value="Health and Hygiene" required> Health and Hygiene</div>
+                <div class="inp choose"><input type="radio" name="data[Technical Club]" id="" value="Digital Marketing Club" required> Digital Marketing Club</div>
+                <div class="inp choose"><input type="radio" name="data[Technical Club]" id="" value="Film Technology Club" required> Film Technology Club</div>
+                <div class="inp choose"><input type="radio" name="data[Technical Club]" id="" value="Stock Marketing Club" required> Stock Marketing Club</div>
+            
+                <div class="labels">Which Liberal arts club would you like to join?</div>
+                
+                <div class="inp choose"><input type="radio" name="data[Liberal arts Club]" id="" value="Dance Club" required>Narthana dance Club</div>
+                <div class="inp choose"><input type="radio" name="data[Liberal arts Club]" id="" value="Fusion Club" required>Fusion Dance Club (Operated by Students)</div>
+                <div class="inp choose"><input type="radio" name="data[Liberal arts Club]" id="" value="Standup Comedy Club" required>Standup Comedy Club</div>
+                <div class="inp choose"><input type="radio" name="data[Liberal arts Club]" id="" value="Music Club" required> Music Club</div> 
+                <div class="inp choose"><input type="radio" name="data[Liberal arts Club]" id="" value="Dramatics Club" required> Dramatics Club </div>
+                <div class="inp choose"><input type="radio" name="data[Liberal arts Club]" id="" value="Literature Club" required> Literature Club</div>
+                <div class="inp choose"><input type="radio" name="data[Liberal arts Club]" id="" value="Handycrafts Club" required> Handycrafts Club</div>
+                <div class="inp choose"><input type="radio" name="data[Liberal arts Club]" id="" value="Film Making Club" required> Film Making Club</div>
+                <div class="inp choose"><input type="radio" name="data[Liberal arts Club]" id="" value="Embroidery and Stitching Club" required>Embroidery and Stitching Club</div>
+                <div class="inp choose"><input type="radio" name="data[Liberal arts Club]" id="" value="Photography & Editing Club" required> Photography & Editing Club</div>
+
+                <div class="labels">Which Professional Society would you like to join?</div>
+                
+                <div class="inp choose"><input type="radio" name="data[Professional Society]" id="" value="Micro Biologist Student Society - BT" required>Micro Biologist Student Society - BT</div>
+                <div class="inp choose"><input type="radio" name="data[CSI - AIDS, CSE, CSIT]" id="" value="CSI - AIDS, CSE, CSIT" required>CSI - AIDS, CSE, CSIT</div>
+                <div class="inp choose"><input type="radio" name="data[IEEE - ECE,EEE]" id="" value="IEEE - ECE,EEE" required>IEEE - ECE,EEE</div>
+                <div class="inp choose"><input type="radio" name="data[IETE - ECE]" id="" value="IETE - ECE" required>IETE - ECE</div>
+                <div class="inp choose"><input type="radio" name="data[Society for Learning Technologies (SOLETE) Student Chapter - ECSE]" id="" value="Society for Learning Technologies (SOLETE) Student Chapter - ECSE" required>Society for Learning Technologies (SOLETE) Student Chapter - ECSE</div> 
+                <div class="inp choose"><input type="radio" name="data[Indian Geo technical Society Student Chapter IGS) - CE]" id="Indian Geo technical Society Student Chapter IGS) - CE" value="Indian Geo technical Society Student Chapter IGS) - CE" required>Indian Geo technical Society Student Chapter IGS) - CE</div>
+                <div class="inp choose"><input type="radio" name="data[Indian Concrete Institute Student Chapter (ICI)- CE]" id="Indian Concrete Institute Student Chapter (ICI)- CE" value="Indian Concrete Institute Student Chapter (ICI)- CE" required>Indian Concrete Institute Student Chapter (ICI)- CE</div> 
+                <div class="inp choose"><input type="radio" name="data[Association of Consulting Civil Engineers (ASSE(I) Student Chpater - CE]" id="" value="Association of Consulting Civil Engineers (ASSE(I) Student Chpater - CE" required>Association of Consulting Civil Engineers (ASSE(I) Student Chpater - CE</div>
+                <div class="inp choose"><input type="radio" name="data[Society of Automative Engineers Student Chapter - ME]" id="" value="Society of Automative Engineers Student Chapter - ME" required>Society of Automative Engineers Student Chapter - ME</div>
+                
+                
+                
+                <div class="labels"><label for="">Would you like to be a part of SAC PR (public relations) team?</label></div>
+                <div class="inp choose"><input type="radio" name="data[PR]" id="" value="yes"> Yes</div>
+                <div class="inp choose"><input type="radio" name="data[PR]" id="" value="no" > No</div>
+                <div class="labels"><label for="">Would you like join Rural Women Empowerment?</label></div>
+                <div class="inp choose"><input type="radio" name="data[WomenEmpowerment]" id="" value="yes"> Yes</div>
+                <div class="inp choose"><input type="radio" name="data[WomenEmpowerment]" id="" value="no" > No</div>
+                <div class="labels"><label for="">Would like to join SAC Leadership?</label></div>
+                <div class="inp choose">
+                    <div class="inp"><input type="radio" name="data[Leadership]" id="" value="Head / President"> Head / President</div>
+                    <div class="inp"><input type="radio" name="data[Leadership]" id="" value="Vice president"> Vice President</div>
+                    <div class="inp"><input type="radio" name="data[Leadership]" id="" value="Technical Lead"> Technical Lead</div>
+                    <div class="inp"><input type="radio" name="data[Leadership]" id="" value="Project Lead"> Project Lead</div>
+                    <div class="inp"><input type="radio" name="data[Leadership]" id="" value="Master Trainers"> Master Trainers</div>
+                    <div class="inp"><input type="radio" name="data[Leadership]" id="" value="Secretary"> Secretary</div>
+                    <div class="inp"><input type="radio" name="data[Leadership]" id="" value="Social & Media Lead"> Social & Media Lead</div>
+                    <div class="inp"><input type="radio" name="data[Leadership]" id="" value="Finance Lead"> Finance Lead</div>
+                    <div class="inp"><input type="radio" name="data[Leadership]" id="" value="Events Lead"> Events Lead</div>
+                    <div class="inp"><input type="radio" name="data[Leadership]" id="" value="Academic Lead"> Academic Lead</div>
+                    <div class="inp"><input type="radio" name="data[Leadership]" id="" value="None"> None of the above</div>
+                </div>
+                <div class="labels"><label for="">What is your field of interest?</label></div>
+                <div class="inp textFill"><input type="text" name="data[Interest]" id="interest" placeholder="Game Streaming, Cooking, Programming, etc."></div>
+                <div class="labels"><label for="">What is your field of expertise?</label></div>
+                <div class="inp textFill"><input type="text" name="data[Expertise]" id="" placeholder="Graphics Designing, Public Speaking, etc."></div>
+                <div class="labels"><label for="">Which Sports club would you like to join?</label></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Atheletics" required> Athletics <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Badminton" required> Badminton <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Basket Ball" required> Basket Ball <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="CHess" required> Chess <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Cricket" required> Cricket <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Football" required> Football <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Handball" required> Handball <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Kabaddi" required> Kabaddi <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Kho-Kho" required> Kho-Kho <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Laen Tennis" required> Lawn Tennis <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Power Lifiting" required> Power Lifiting/Weight Lifting <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Table Tennis" required> Table Tennis <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Taekwondo" required> Taekwondo <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Throwball" required> Throwball <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Wushu" required> Wushu <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Volley ball" required> Volley ball <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Roller Sports" required> Roller Sports <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Boxing and Kick Boxing" required> Boxing and Kick Boxing <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Archery" required> Archery <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Karate" required> Karate <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Swimming" required> Swimming <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Rifle Shooting" required> Rifle Shooting <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="Yoga" required> Yoga <br></div>
+                <div class="inp choose"><input type="radio" name="data[Sports Club]" id="" value="E-sports" required> E-sports <br></div>
+                <br> 
+                <!--<div class="termsandconditions">
+                    <input type="checkbox" name="" id="terms" required><span><p> I Agree to <a href="tandc.html">terms and conditions</a> of KLUSAC</p></span>
+                </div>-->
+        </div>
+        <div class="module-three">
+            <div class="button">
+                <i class="fa-solid fa-circle-notch icon spinner"></i>
+               <!-- <i class="fa-solid fa-check icon check"></i>-->
+                <button class="buto"><span class="text-button">Submit</span></button>
+            </div>
+            <script>
+                let btn = document.querySelector(".button"),
+                    spinIcon = document.querySelector(".spinner"),
+                    btnText = document.querySelector(".text-button");
+
+                    btn.addEventListener("click", () => {
+                        btn.style.cursor = "wait"; 
+                        btn.classList.add("checked");
+                        spinIcon.classList.add("spin");
+                        btnText.textContent = "Loading";
+
+                    setTimeout(() =>{
+                        btn.style.pointerEvents = "none"; 
+                        spinIcon.classList.replace("spinner","check" ); 
+                        spinIcon.classList.replace("fa-circle-notch","fa-check" ); 
+                        btnText.textContent = "Done";
+                    },3000)
+                    })
+            </script>
+   </div>
+    </div>
+</form>
+<script>
+    var form = document.getElementById('sheetdb-form');
+    form.addEventListener("submit", e => {
+      e.preventDefault();
+      fetch(form.action, {
+          method : "POST",
+          body: new FormData(document.getElementById("sheetdb-form")),
+      }).then(
+          response => response.json()
+      ).then((html) => {
+        alert('Your details got successfully registered, Thank you!!')
+      });
+    });
+  </script>
+
+</body>
+</html>
