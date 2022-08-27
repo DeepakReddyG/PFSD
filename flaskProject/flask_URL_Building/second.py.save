@@ -1,0 +1,17 @@
+from flask import *
+app = Flask(__name__)
+@app.route('/')
+def index():
+	return 'index page'
+@app.route('/home')
+def home():
+	return 'home page'
+@app.route('/about')
+def about():
+	return 'about'
+@app.route('user/<name>')
+def user():
+	if name == 'admin':
+		return redirect(url_for('home'))
+	else 
+		return redirect(url_for('about'))
