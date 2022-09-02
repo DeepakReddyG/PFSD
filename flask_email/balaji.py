@@ -1,24 +1,24 @@
 from flask import Flask
 from flask_mail import Mail, Message
 
-app = Flask(__name__)
+app = Flask(name)
 mail= Mail(app)
 
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
-app.config['MAIL_USERNAME'] = ''
-app.config['MAIL_PASSWORD'] = ''
+app.config['MAIL_USERNAME'] = 'nanimuvvala18@gmail.com'
+app.config['MAIL_PASSWORD'] = 'qucbuddnmfpbycys'
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 mail = Mail(app)
 
 @app.route("/")
 def index():
-   msg = Message('', sender = '', recipients = 
-[''])
-   msg.body = "2100032221 done with sending email through flask! "
+   msg = Message('Hello Sir! 2100031949 Here!', sender = 'nanimuvvala18@gmail.com', recipients =
+['deepak@kluniversity.in'])
+   msg.body = "Hello from Flask,ID:2100031949,M.V.N.Balaji"
    mail.send(msg)
    return "Sent"
 
-if __name__ == '__main__':
+if name== 'main':
    app.run(debug = True)
