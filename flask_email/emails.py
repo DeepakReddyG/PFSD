@@ -14,7 +14,7 @@ mail = Mail(app)
 
 @app.route("/")
 def index():
-   msg = Message('Hello Bhanu', sender = 'deepakreddygathpa@gmail.com', recipients = 
+   msg = Message('Hello Sir! 2100031817 Here!', sender = 'deepakreddygathpa@gmail.com', recipients = 
 ['deepak@kluniversity.in'])
    msg.body = "Hello from Flask,ID:2100031817,Deepak Reddy Gathpa"
    mail.send(msg)
