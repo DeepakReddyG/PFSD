@@ -70,5 +70,5 @@ def my_login():
         return "login success"
 
 #run flask app
-if name == "main":
+if __name__ == "__main__":
     app.run(debug=True)
