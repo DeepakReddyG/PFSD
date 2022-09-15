@@ -1,0 +1,8 @@
+it doesn't work based on SQL commands
+it is based on concept of object relational mapping 
+
+sample code:
+	import sqlalchemy
+	from sqlalchemy import create_engine
+	db_url = "sqlite:///db.sqlite" 
+	 
