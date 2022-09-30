@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deepak</title>
+</head>
+<body>
+<center> <h1>Prime Ministers of India</h1></center>
+<table border = "1" size="auto" align="center">
+         <tr>
+            <td>Manmohan Singh - Former prime minister of india</td>
+            <td>
+                {% load static %}
+                <img src = "{% static 'images/Singh.jpg' %}" alt="My image"/>
+            </td>
+            <td>
+                <button>Like</button>
+            </td>
+         </tr>
+        <tr>
+            <td>Narendra Modi - Current prime minister of india</td>
+            <td>
+                {% load static %}
+                <img src = "{% static 'images/Modi.jpg' %}" alt="My image"/>
+            </td>
+            <td>
+                <button>Dislike</button>
+            </td>
+         </tr>
+      </table>
+</body>
+</html>

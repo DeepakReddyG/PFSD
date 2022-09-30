@@ -1,0 +1,24 @@
+1. create an environment
+2. activate the environment 
+3. install django 
+4. create a project
+5. migrate 
+6. create superuser
+7. runserver 
+
+
+step 1: Creating a virtual environment 
+	python3 -m venv 'environment_name' 
+step 2: Activiate the environment 
+	source environment_name/bin/activate 
+step 3: Install django in the current folder
+	python3 -m pip install django 
+step 4: Start the project 
+	django-admin startproject 'project_name'
+step 5: migrate 
+	python3 manage.py migrate 
+step 6: create super user	
+	python manage.py createsuperuser
+step 7: runserver
+	python3 manage.py runserver 
+

@@ -1,0 +1,28 @@
+.wrapper{
+    margin: 0 auto;
+    width: 50%;
+  }
+  
+  .likes{
+    background-color: black;
+    border-radius: 100px;
+    height: 200px;
+    float: left;
+    width: 200px;
+  }
+  
+  .dislikes{
+    background-color: black;
+    border-radius: 100px;
+    height: 200px;
+    float: right;
+    width: 200px;
+  }
+  
+  #l-counter{
+    float: left;
+  }
+  
+  #d-counter{
+    float: right;
+  }
