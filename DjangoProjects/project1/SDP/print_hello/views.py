@@ -22,5 +22,3 @@ def mail1(request):
 	)
 	return print('Mail sent') 
 def mail2(request):
-	message = ('Hello folks','Django mass mail testing','deepakreddygathpa@gmail.com',['deepak@kluniversity.in','vamsinarayana662@kluniversity.in'])
-	send_mass_mail((message),fail_silently=False)
