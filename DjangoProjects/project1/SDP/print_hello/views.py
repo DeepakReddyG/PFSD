@@ -12,6 +12,14 @@ def modi(request):
 	return render(request,'modi.html')
 def counter(request):
 	return render(request,'index.html')
+def getFile(request):
+	response = HttpResponse(content_type='text/csv') 
+	response['Content-Disposition'] = 'attachment; filename="students.csv"' 
+	writer = csv.writer(response)
+	writer.writerow(['2100030101','Absent']) 
+	writer.writerow(['2100030102','present']) 
+	
+	
 def mail1(request):
 	send_mail(
 	'Test Mail using django framwork',
@@ -21,4 +29,3 @@ def mail1(request):
 	fail_silently = False,
 	)
 	return print('Mail sent') 
-def mail2(request):
